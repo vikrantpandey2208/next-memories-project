@@ -14,7 +14,7 @@ import { VortexDemoSecond } from "@/components/vortex";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="dark">
       <VortexDemoSecond />
       <Overlay/>
         <TextGenerateEffectDemo />

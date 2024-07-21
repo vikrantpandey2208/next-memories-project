@@ -19,7 +19,7 @@ export function SparklesPreview() {
       <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
         Reach for the Stars!
       </h1>
-      <div className=" dark:text-white text-black text-2xl leading-snug tracking-wide mt-5 ml-6 mr-6">
+      <div className=" dark:text-white text-black text-base sm:text-lg md:text-xl lg:text-2xl leading-snug tracking-wide mt-10 ml-6 mr-6">
         <p>Your potential is limitless. Keep aiming high and achieving greatness. Though our projects may change, the bonds we’ve built will last a lifetime. May this new path lead you to exciting and rewarding experiences.
           The future holds endless possibilities. Embrace every opportunity with confidence.
         </p>

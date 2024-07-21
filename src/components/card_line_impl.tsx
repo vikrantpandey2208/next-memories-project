@@ -1,40 +1,62 @@
 import { GlareCard } from "./card_lines";
-
+import pic1 from '@/data/vp1.jpeg';
+import Image from "next/image";
 
 export function GlareCardDemo() {
   return (
+    <div className="flex justify-center">
     <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-      <GlareCard className="flex flex-col items-center justify-center">
-        <svg
-          width="66"
-          height="65"
-          viewBox="0 0 66 65"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-14 w-14 text-white"
-        >
-          <path
-            d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
-            stroke="currentColor"
-            strokeWidth="15"
-            strokeMiterlimit="3.86874"
-            strokeLinecap="round"
-          />
-        </svg>
+      <GlareCard className="relative flex flex-col justify-end items-center h-64 md:h-96">
+      <Image
+        src={pic1}
+        alt="Photo by Minh Pham"
+        layout="fill"
+        objectFit="cover"
+        className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+      />
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="relative z-10 p-4 text-center mb-4">
+          <p className="font-normal text-base text-neutral-200">
+          Your enthusiasm and positive energy have always been contagious
+          </p>
+          <p className="font-bold text-white text-lg text-center mt-2">Team celebration
+          </p>
+        </div>
       </GlareCard>
-      <GlareCard className="flex flex-col items-center justify-center">
-        <img
-          className="h-full w-full absolute inset-0 object-cover"
-          src="https://images.unsplash.com/photo-1512618831669-521d4b375f5d?q=80&w=3388&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        />
+      <GlareCard className="relative flex flex-col justify-end items-center h-64 md:h-96">
+      <Image
+        src={pic1}
+        alt="Photo by Minh Pham"
+        layout="fill"
+        objectFit="cover"
+        className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+      />
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="relative z-10 p-4 text-center mb-4">
+          <p className="font-normal text-base text-neutral-200">
+          Your attention to detail, problem-solving skills, and unwavering commitment have inspired us all.
+          </p>
+          <p className="font-bold text-white text-lg text-center mt-2">Vikrant</p>
+        </div>
       </GlareCard>
-      <GlareCard className="flex flex-col items-start justify-end py-8 px-6">
-        <p className="font-bold text-white text-lg">The greatest trick</p>
-        <p className="font-normal text-base text-neutral-200 mt-4">
-          The greatest trick the devil ever pulled was to convince the world
-          that he didn&apos;t exist.
-        </p>
+      <GlareCard className="relative flex flex-col justify-end items-center h-64 md:h-96">
+      <Image
+        src={pic1}
+        alt="Photo by Minh Pham"
+        layout="fill"
+        objectFit="cover"
+        className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+      />
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="relative z-10 p-4 text-center mb-4">
+          <p className="font-normal text-base text-neutral-200">
+          Starting my journey in financial management under your guidance has been a pivotal moment for me. 
+          </p>
+          <p className="font-bold text-white text-lg text-center mt-2">Vikrant</p>
+        </div>
       </GlareCard>
+
+    </div>
     </div>
   );
 }
