@@ -1,5 +1,5 @@
 import { GlareCard } from "./card_lines";
-import pic1 from '@/data/nse_scam.avif';
+import pic1 from '@/data/nse.jpg';
 import pic2 from '@/data/ie.jpeg';
 import pic3 from '@/data/vp1.jpeg';
 import Image from "next/image";
