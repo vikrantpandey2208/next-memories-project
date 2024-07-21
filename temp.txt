@@ -1,0 +1,42 @@
+3D Card Effect
+
+Card Stack
+
+Infinite Moving Cards
+Layout Grid
+
+Meteor Effect
+
+Sparkles
+Text Generate Effect
+Typewriter Effect
+
+Vortex Background
+
+
+
+
+const cards = [
+    {
+      id: 1,
+      className: "md:col-span-2",
+      thumbnail: pic1 
+    },
+    {
+      id: 2,
+      className: "col-span-1",
+      thumbnail:
+         pic2 
+    },
+    {
+      id: 3,
+      className: "col-span-1",
+      thumbnail:
+         pic3 
+    },
+    {
+      id: 4,
+      className: "md:col-span-2",
+      thumbnail:  pic4 
+    },
+  ];
