@@ -11,9 +11,6 @@ export function TypewriterEffectSmoothDemo() {
       text: "will",
     },
     {
-      text: "always",
-    },
-    {
       text: "remember",
     },
     {
@@ -28,8 +25,8 @@ export function TypewriterEffectSmoothDemo() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[20rem]  ">
-      <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
+    <div className="flex flex-col items-center justify-center h-[20rem]">
+      <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base">
       Your journey ahead is full of promise...
       </p>
       <TypewriterEffectSmooth words={words} />

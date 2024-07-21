@@ -6,7 +6,7 @@ export function GlareCardDemo() {
   return (
     <div className="flex justify-center">
     <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-      <GlareCard className="relative flex flex-col justify-end items-center h-64 md:h-96">
+      <GlareCard className="relative flex flex-col justify-end items-center md:h-96">
       <Image
         src={pic1}
         alt="Photo by Minh Pham"
@@ -23,7 +23,7 @@ export function GlareCardDemo() {
           </p>
         </div>
       </GlareCard>
-      <GlareCard className="relative flex flex-col justify-end items-center h-64 md:h-96">
+      <GlareCard className="relative flex flex-col justify-end items-center md:h-96">
       <Image
         src={pic1}
         alt="Photo by Minh Pham"
@@ -39,7 +39,7 @@ export function GlareCardDemo() {
           <p className="font-bold text-white text-lg text-center mt-2">Vikrant</p>
         </div>
       </GlareCard>
-      <GlareCard className="relative flex flex-col justify-end items-center h-64 md:h-96">
+      <GlareCard className="relative flex flex-col justify-end items-center md:h-96">
       <Image
         src={pic1}
         alt="Photo by Minh Pham"
