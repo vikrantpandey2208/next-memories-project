@@ -61,7 +61,7 @@ const ImageComponent = ({ card }: { card: Card }) => {
   return (
     <Image
       src={card.thumbnail}
-      width={500}
+      width={600}
       className={cn(
         "object-cover object-top absolute inset-0 h-full w-full transition duration-200"
       )}
