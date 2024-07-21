@@ -50,7 +50,7 @@ const Overlay = () => {
               className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-            <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Tech</span>
+            <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Meetup</span>
           </div>
           {/* image - end */}
 
@@ -66,7 +66,7 @@ const Overlay = () => {
               className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-            <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Dev</span>
+            <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Final Moments</span>
           </div>
           {/* image - end */}
 
@@ -82,7 +82,7 @@ const Overlay = () => {
               className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-            <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Retro</span>
+            <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Farewell</span>
           </div>
           {/* image - end */}
           
